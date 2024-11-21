@@ -35,9 +35,12 @@ record Expr(String text) {
                 continue;
             }
 
-            // TODO:
-            // if (ch.equals(")")) {
-            //   ...
+            if (ch.equals(")")) {
+                String op1 = stack.pop();
+                String op = stack.pop();
+                String op2 = stack.pop();
+                stack.push(applyOp(op2, op, op1));
+            }
         }
 
         try {
