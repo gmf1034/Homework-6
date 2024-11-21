@@ -1,9 +1,0 @@
--------------------------------------------------------------------------------
-Test set: hw06.ExprShould
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.047 s <<< FAILURE! - in hw06.ExprShould
-hw06.ExprShould.eval_expr_1  Time elapsed: 0.03 s  <<< ERROR!
-java.util.NoSuchElementException
-	at hw06.ExprShould.test_eval(ExprShould.java:20)
-	at hw06.ExprShould.eval_expr_1(ExprShould.java:11)
-
